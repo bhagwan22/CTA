@@ -1,0 +1,6 @@
+#implesit sharing (OWD) :  always work from child to parent i.e if we give access of child then parent is automatically given access
+#in Master-Detail if OWD of parent is private then child is also private
+# grant access via role hirerarchy is only ON/OFF for custom object for standard it is ON everytime
+# in role creation we have checkbox of saying: id user of this role ownes any account then it can edit all it's owned account contact and case, regardless of who ownes those opportunity and case.
+
+# as soon as we enable first user on partner or cc+ account, SF automatically creates community user roles hirerarchy for (Partner user-->, Partner Manager-->, Partner Executive). which automatically rolles up to the account owner role.
